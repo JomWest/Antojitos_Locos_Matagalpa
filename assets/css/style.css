@@ -2064,7 +2064,7 @@ textarea.input-field {
   }
 
 
-/
+
 
   .footer-top .container {
     grid-template-columns: 1.4fr 1fr 1fr 1.6fr;
@@ -2078,7 +2078,7 @@ textarea.input-field {
   width: 560px;
   height: 500px;
   display: block;
-  margin: -135px -63px -100px;
+  margin: -135px -66px -100px;
   border-radius: 50%;
   max-width: 540px;
   -webkit-tap-highlight-color: transparent;
