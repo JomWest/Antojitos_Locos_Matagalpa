@@ -167,8 +167,19 @@ body {
   font-size: 1.6rem;
   line-height: 1.6;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
+@media only screen and (max-width: 600px) {
+  html, body {
+    padding: 0%;
+    margin: auto;
+    display: block;
+   box-sizing: border-box;
+   overflow-x: hidden;
+  }
+}
 body.active {
   overflow: hidden;
 }
@@ -2053,10 +2064,7 @@ textarea.input-field {
   }
 
 
-
-  /**
-   * FOOTER
-   */
+/
 
   .footer-top .container {
     grid-template-columns: 1.4fr 1fr 1fr 1.6fr;
@@ -2067,11 +2075,12 @@ textarea.input-field {
 #profilePicture,
 #profilePicture img {
   position: relative;
-  width: 460px;
-  height: 390px;
+  width: 560px;
+  height: 500px;
   display: block;
-  margin: -160px -42px -30px;
+  margin: -135px -63px -100px;
   border-radius: 50%;
+  max-width: 540px;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -2147,10 +2156,10 @@ textarea.input-field {
   #profilePicture,
 #profilePicture img {
   position: relative;
-  width: 460px;
-  height: 400px;
+  width: 560px;
+  height: 520px;
   display: block;
-  margin: -160px 175px -30px;
+  margin: -230px 179px -100px;
   border-radius: 50%;
   -webkit-tap-highlight-color: transparent;
 }
