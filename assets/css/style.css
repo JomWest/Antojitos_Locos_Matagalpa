@@ -920,8 +920,9 @@ body.active {
   display: flex;
   justify-content: center;
   gap: 5px;
-  letter-spacing: 1px;
-  font-family: "LuckiestSoftieProExtraBold-Regular";
+  font-family: var(--ff-rubik);
+font-size: 23px;
+  letter-spacing: -1px;
   font-weight: var(--fw-600);
 }
 
