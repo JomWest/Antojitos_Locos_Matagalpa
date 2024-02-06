@@ -4,15 +4,8 @@
 :root {
 
 
-  
- @font-face {
-  font-family: 'LuckiestSoftieProExtraBold';
-  src: url('./assets/images/LuckiestSoftieProExtraBold.woff2') format('woff2'), 
-       url('./assets/images/LuckiestSoftieProExtraBold.woff2') format('woff'); 
-  font-weight: 800; 
-  font-style: normal;
- }
- 
+
+
   --rich-black-fogra-29: hsl(210, 26%, 7%);
   --champagne-pink_20: hsla(23, 61%, 86%, 0.2);
   --independence_30: hsla(245, 17%, 29%, 0.3);
@@ -40,7 +33,7 @@
   --ff-shadows-into-light: 'Shadows Into Light', cursive;
   --ff-roboto: 'Roboto', sans-serif;
   --ff-rubik: 'Rubik', sans-serif;
-  --ff--Luck: 'LuckiestSoftieProExtraBold', sans-serif;
+  --ff--Luck: 'Luckiest Softie Pro', sans-serif;
 
   --fs-1: 3.2rem;
   --fs-2: 2.2rem;
